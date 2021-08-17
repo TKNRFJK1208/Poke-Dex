@@ -1,0 +1,112 @@
+/* Globl */
+.head-icon {
+  padding: 15px 25px;
+  text-align: center;
+}
+
+.head-icon img {
+  width: 100%;
+  padding: 50px 0;
+}
+
+.content-description {
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.content-item {
+  display: flex;
+  margin: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-item div {
+  margin-left: 15px;
+}
+
+.btn-link {
+  min-width: 120px;
+}
+
+/* First page */
+.intro-box {
+  text-align: center;
+  height: 100vh;
+}
+
+.intro-box h1 {
+  font-size: 40px;
+}
+
+.intro-box .bg-img {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.intro-box .bg-img img {
+  width: 80vw;
+}
+
+.intro-box li {
+  list-style: none;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+/* List page */
+.pokemon-list-item {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-areas: 'copy btn';
+}
+
+.pokemon-list-left {
+  grid-area: copy;
+  padding-left: 5px;
+}
+
+.pokemon-list-right {
+  grid-area: btn;
+  align-self: center;
+  justify-self: center;
+}
+
+.pokemon-list-heading {
+  font-size: 1.2em;
+  text-transform: capitalize;
+  color: #000;
+}
+
+.pokemon-list-sub {
+  font-size: 0.75em;
+  font-style: italic;
+}
+
+#pokemon-card {
+  text-align: center;
+  height: 100vh;
+}
+
+/* Single page */
+#pokemon-head {
+  font-size: 50px;
+  margin-top: 80px;
+}
+
+.poke-features {
+  list-style-type: none;
+  padding-right: 30px;
+}
+
+.img-container {
+  text-align: center;
+}
+
+.feat-img {
+  width: 75%;
+  margin-top: 80px;
+}
